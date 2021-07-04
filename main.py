@@ -134,7 +134,7 @@ def delete_email():
     con = sqlite3.connect('example.db')
     cur = con.cursor()
     sql_query = f'''
-    DELETE FROM emails WHERE emailValue LIKE "%gmail.com";
+    DELETE FROM emails WHERE emailValue LIKE "%yandex.com" OR emailValue LIKE "%gmail.com";
     '''
     cur.execute(sql_query)
     con.commit()
