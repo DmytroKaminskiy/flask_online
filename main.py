@@ -79,6 +79,7 @@ def create_email():
     contact_name = request.args['contactName']
     email_value = request.args['Email']
     print(111111)
+    print(2222222)
     cur = con.cursor()
     sql_query = f'''
     INSERT INTO emails (contactName, emailValue)
