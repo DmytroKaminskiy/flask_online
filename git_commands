@@ -1,0 +1,14 @@
+
+0. git init (???)
+
+1. git status
+2. git add {filename or directory}
+3. git commit -m "message"
+4. git push -u origin main
+1-4
+
+5. git diff [filename]
+
+# config
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
