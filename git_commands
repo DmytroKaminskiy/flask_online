@@ -16,3 +16,19 @@
 # config
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
+
+# git status should be clean
+1. git checkout main
+2. git pull origin main
+3. git branch homework4
+4. git checkout homework4
+# after homework is done
+5. git add --all
+6. git commit -m "hw4"
+7. git push origin homework4
+
+# if comment
+1. fix comments
+2. git add --all
+3. git commit -m "hw4"
+4. git push origin homework4
