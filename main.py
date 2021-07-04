@@ -76,10 +76,9 @@ def create_email():
     import sqlite3
 
     con = sqlite3.connect('example.db')
-    # http://127.0.0.1:5000/emails/create/?contactName=Alex&Email=awdaw@mail.com
     contact_name = request.args['contactName']
     email_value = request.args['Email']
-
+    print(111111)
     cur = con.cursor()
     sql_query = f'''
     INSERT INTO emails (contactName, emailValue)
