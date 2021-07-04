@@ -8,7 +8,8 @@
 1-4
 
 5. git diff [filename]
-
+6. git log
+7. git pull origin {branch_name}
 # config
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
