@@ -16,3 +16,9 @@
 # config
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
+
+# git status should be clean
+1. git checkout main
+2. git pull origin main
+3. git branch homework4
+4. git checkout homework4
